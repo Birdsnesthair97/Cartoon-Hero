@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	text-align: center;
+}
+
+header{
+	background-color: salmon;
+	text-align:center;
+}
+
+header img{
+	max-width: 50%;
+	border-radius: 50px;
+}
+
+body img{
+	max-width: 70%
+}
