@@ -1,18 +1,33 @@
 body{
 	margin: 0;
-	text-align: center;
+	/*TNR is 1st priority, if the don't have it then Arial is used 2nd*/
+	font-family: Times New Roman, Arial, sans-serif; 
 }
 
 header{
-	background-color: salmon;
-	text-align:center;
+	/*Background-color within the header only:*/
+	background-color: maroon;
+	/*Centers both the image and the text:*/
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+header h1{
+	/*The color of the text within the header*/
+	color: white;
 }
 
 header img{
-	max-width: 50%;
-	border-radius: 50px;
+	/*Creates an outline around the image:*/
+	border: 8px solid black;
+	/*Makes the header image a circle*/
+	border-radius: 250px;
+	width: 450px
 }
 
 body img{
-	max-width: 70%
+	border-radius: 250px
+	width: 350px;
 }
+8:40 CSS;
